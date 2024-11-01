@@ -1,0 +1,45 @@
+li.woo_subcategory_parent a.prnt_link {
+    border: 1px solid #ccc;
+    background: #000;
+    border-radius: 3px;
+    color: #fff;
+    width: 100%;
+    display: inline-block;
+}
+.woo_subcategory_parent {
+    list-style: none;
+}
+.woo_nxt_lvl {
+    padding: 0px 0px 0px 8px;
+    margin: 0px;
+    display: none;
+}
+.woo_active .woo_nxt_lvl {
+    display: block;
+}
+.acordion_sign {
+    position: absolute;
+    top: 0px;
+    right: 4px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 0px 5px 0px 4px;
+    cursor: pointer;
+}
+.woo_active .woo_plus {
+    display: none;
+}
+.woo_minus {
+    display: none;
+}
+.woo_active .woo_minus {
+    display: block;
+}
+.woo_subcategory {
+    margin-bottom: 2px !important;
+    position: relative;
+}
+ul.woo_subcategory li {
+    list-style: none;
+}
